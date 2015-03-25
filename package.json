@@ -1,0 +1,31 @@
+{
+  "name": "proc-delta",
+  "version": "1.0.0",
+  "description": "Get the delta of /proc/:pid/* over a given interval",
+  "main": "index.js",
+  "dependencies": {
+    "proc-pid": "^1.0.2",
+    "psjson": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wankdanker/node-proc-delta"
+  },
+  "keywords": [
+    "proc",
+    "pid",
+    "delta",
+    "stat",
+    "io"
+  ],
+  "author": "Dan VerWeire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wankdanker/node-proc-delta/issues"
+  },
+  "homepage": "https://github.com/wankdanker/node-proc-delta"
+}
